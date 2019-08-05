@@ -1,4 +1,4 @@
-input[type="translator"]{
-  width:50%;
-  height:40px;
+input[type="translator"],input[type="output"]{
+  width:45%;
+  height:100px;
 }
