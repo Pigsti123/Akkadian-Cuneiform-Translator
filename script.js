@@ -17,7 +17,7 @@ function ST(){
     input.style.resize="none";
     input.placeholder="Text";
     input.id="translateinput";
-    input.onkeypress = function(){translate()};
+    input.onkeyup=function(){translate()};
     output.style.height="100px";
     output.style.width="49%";
     output.style.resize="none";
