@@ -35,4 +35,14 @@ var language = {
   strength: "abāru",
   energy: "abāru",
   wrestler: "abāru",
+  magic: "abāru",
+  arms: "abāru",
+  persons: "abāru",
+  stars: "abāru",
+  embrace0intensley: "abāru",
+  bind: "abāru",
+  accuse: "abāru",
+  denounce: "abāru",
+  lead: "abāru"
+  
 };
