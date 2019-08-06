@@ -16,10 +16,15 @@ function ST(){
     input.style.width="49%";
     input.style.resize="none";
     input.placeholder="Text";
+    input.onkeypress = translate(this);
     output.style.height="100px";
     output.style.width="49%";
     output.style.resize="none";
     output.placeholder="Translation";
     document.body.appendChild(input);
     document.body.appendChild(output);
+}
+
+function translate(object){
+    alert(object.value);
 }
