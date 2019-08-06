@@ -36,4 +36,5 @@ function translate(){
         var re = new RegExp(replace,"g");
         value.replace(re, "newstring");
     }
+    document.getElementById("translateoutput").value=value;
 }
