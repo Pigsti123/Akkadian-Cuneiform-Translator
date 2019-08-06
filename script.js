@@ -28,5 +28,11 @@ function ST(){
 
 function translate(){
     var input = document.getElementById("translateinput");
-    alert(input.value);
+    var value = input.value;
+    for (i = 0; i < Object.values(language).length; i++) {
+        
+        var replace = "regex";
+        var re = new RegExp(replace,"g");
+        value.replace(re, "newstring");
+    }
 }
