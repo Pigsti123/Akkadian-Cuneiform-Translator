@@ -10,6 +10,13 @@ var language = {
   hay: "ablūtu",
   sea: "abamātu",
   alum: "aban gabe",
-  love-charm: "aban rāmi",
-  
+  love0charm: "aban rāmi",
+  date0stone: "aban suluppi",
+  snake0stone: "aban ṣerru",
+  mountain0rock: "aban šaddî",
+  hailstone: "aban šamê*",
+  leaden: "abārāiu+",
+  lead0gray: "abārāiu+",
+  livid: "abārāiu+",
+  drab: "abārāiu+",
 };
