@@ -18,7 +18,6 @@ function ST(){
 
 
 input[type="translator"],input[type="output"]{
-  display:none;
   width:49%;
   height:100px;
 }
