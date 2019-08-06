@@ -1,1 +1,1 @@
-
+$(":translator").append()
