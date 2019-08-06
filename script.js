@@ -9,15 +9,14 @@ for (var i = 0; i < node_list.length; i++) {
 }
 
 function ST(){
-  var input = document.createElement("TEXTAREA");
-  var output = document.createElement("TEXTAREA");
-  document.body.appendChild(input);
-  document.body.appendChild(output);
-}
-
-
-
-input[type="translator"],input[type="output"]{
-  width:49%;
-  height:100px;
+    var input = document.createElement("TEXTAREA");
+    var output = document.createElement("TEXTAREA");
+    input.style.height="100px";
+    input.style.width="49%";
+    input.style.resize = "none";
+    output.style.height="100px";
+    output.style.width="49%";
+    output.style.resize = "none";
+    document.body.appendChild(input);
+    document.body.appendChild(output);
 }
