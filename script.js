@@ -16,7 +16,7 @@ function ST(){
     input.style.width="49%";
     input.style.resize="none";
     input.placeholder="Text";
-    input.addEventListener("keypress", translate(this));
+    input.addEventListener("keypress", translate());
     output.style.height="100px";
     output.style.width="49%";
     output.style.resize="none";
@@ -25,6 +25,7 @@ function ST(){
     document.body.appendChild(output);
 }
 
-function translate(object){
-    alert(object.value);
+function translate(){
+    var input = document.getElementById("translateinput");
+    alert(input.value);
 }
