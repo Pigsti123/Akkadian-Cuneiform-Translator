@@ -1,1 +1,1 @@
-$(":translator").append()
+$(":translator").append("<textarea></textarea>");
