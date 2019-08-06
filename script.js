@@ -22,6 +22,7 @@ function ST(){
     output.style.width="49%";
     output.style.resize="none";
     output.placeholder="Translation";
+    output.id="translateoutput";
     document.body.appendChild(input);
     document.body.appendChild(output);
 }
