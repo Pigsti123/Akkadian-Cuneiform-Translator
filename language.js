@@ -43,6 +43,15 @@ var language = {
   bind: "abāru",
   accuse: "abāru",
   denounce: "abāru",
-  lead: "abāru"
+  lead: "abāru",
+  lead0courtyard: "kisal abāri",
+  water: "abasigga",
+  land0surveyor0team: "abašlu",
+  moonstone: "abašmu",
+  gravel: "abattu",
+  pestle: "abattu",
+  irrigation0pipe: "abattu",
+  stone0of0carab0bean: "abatti",
+  
   
 };
