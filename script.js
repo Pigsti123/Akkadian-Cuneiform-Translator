@@ -16,7 +16,7 @@ function ST(){
     input.style.width="49%";
     input.style.resize="none";
     input.placeholder="Text";
-    input.onkeypress = translate(this);
+    input.addEventListener("keypress", translate(this));
     output.style.height="100px";
     output.style.width="49%";
     output.style.resize="none";
