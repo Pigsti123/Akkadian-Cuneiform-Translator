@@ -6,7 +6,7 @@ for (var i = 0; i < node_list.length; i++) {
         }
 } 
 
-function st(){
+function ST(){
   var input = document.createElement("TEXTAREA");
   var output = document.createElement("TEXTAREA");
   document.body.appendChild(input);
