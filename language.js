@@ -87,7 +87,7 @@ var translate = (str) => {
   };
   var cipher = '';
   for (let i = 0; i < str.length; i++) { 
-    cipher += coded[str[i]];
+    cipher += language[str[i]];
   }
   str = cipher;
   return str;
