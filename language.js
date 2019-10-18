@@ -85,12 +85,10 @@ var translate = (str) => {
     populace: "abrātu",
     brushwood: "abriš",
   };
-  for (let s = 0; s < count; s++) {
-    var cipher = '';
-    for (let i = 0; i < str.length; i++) {
-      cipher += coded[str[i]];
-    }
-    str = cipher;
+  var cipher = '';
+  for (let i = 0; i < str.length; i++) { 
+    cipher += coded[str[i]];
   }
+  str = cipher;
   return str;
 };
