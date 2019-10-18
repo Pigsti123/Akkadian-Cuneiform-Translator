@@ -29,12 +29,6 @@ function ST(){
 
 function translate(){
     var input = document.getElementById("translateinput");
-    var value = input.value;
-    for (i = 0; i < Object.values(language).length; i++) {
-        
-        var replace = "regex";
-        var re = new RegExp(replace,"g");
-        value.replace(re, "newstring");
-    }
+    var value = translate(input.value);
     document.getElementById("translateoutput").value=value;
 }
